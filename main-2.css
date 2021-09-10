@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(180deg,#fff,#f6fafd);
+}
+
+.tinder-top { top: 0; }
+
+.tinder-bot { bottom: 0; }
+
+.tinder-top, .tinder-bot {
+  background-color: green;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    width: 100%;
+    height: auto;
+    z-index: 1337;
+    position: fixed;
+}
+
+.MAIN { background-color: red;}
+
+.MAIN2 {
+  background-color: yellow;
+  margin: 1rem;
+}
+
+@media (min-width: 576px) {
+
+  .t-top, .t-bot { display: none; }
+
+ }
